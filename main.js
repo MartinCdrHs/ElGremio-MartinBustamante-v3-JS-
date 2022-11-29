@@ -32,7 +32,7 @@ function hayStock (Juego) {
 
 do {
     producto = prompt("Elige uno de los siguientes juegos: Gloomhaven, Munchkin, " +
-    "No lo testeamos ni un poco, Dungeos and Drinks, Jumanji, Here to Slay");
+    "No lo testeamos ni un poco, Dungeons and Drinks, Jumanji, Here to Slay");
 
     switch (producto.toLocaleLowerCase()) {
         case "gloomhaven":
